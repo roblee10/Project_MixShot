@@ -1,0 +1,64 @@
+[2021-09-10 17:43:14 train.py:43] INFO     arch: resnet18
+[2021-09-10 17:43:14 train.py:43] INFO     batch_size: 256
+[2021-09-10 17:43:14 train.py:43] INFO     case_study: False
+[2021-09-10 17:43:14 train.py:43] INFO     ce_train: True
+[2021-09-10 17:43:14 train.py:43] INFO     clone_augment_method: randomresizedcrop
+[2021-09-10 17:43:14 train.py:43] INFO     clone_factor_1shot: 1
+[2021-09-10 17:43:14 train.py:43] INFO     clone_factor_5shot: 1
+[2021-09-10 17:43:14 train.py:43] INFO     config: ./configs/AAAI_configs/pretrain_mini.config
+[2021-09-10 17:43:14 train.py:43] INFO     data: ./images/
+[2021-09-10 17:43:14 train.py:43] INFO     data_type: miniImageNet
+[2021-09-10 17:43:14 train.py:43] INFO     disable_random_resize: False
+[2021-09-10 17:43:14 train.py:43] INFO     disable_tqdm: False
+[2021-09-10 17:43:14 train.py:43] INFO     disable_train_augment: False
+[2021-09-10 17:43:14 train.py:43] INFO     do_meta_train: False
+[2021-09-10 17:43:14 train.py:43] INFO     enlarge: False
+[2021-09-10 17:43:14 train.py:43] INFO     epochs: 100
+[2021-09-10 17:43:14 train.py:43] INFO     eval_fc: False
+[2021-09-10 17:43:14 train.py:43] INFO     evaluate: False
+[2021-09-10 17:43:14 train.py:43] INFO     logname: Pretrain_miniImageNet.log
+[2021-09-10 17:43:14 train.py:43] INFO     lr: 0.1
+[2021-09-10 17:43:14 train.py:43] INFO     lr_gamma: 0.1
+[2021-09-10 17:43:14 train.py:43] INFO     lr_stepsize: 30
+[2021-09-10 17:43:14 train.py:43] INFO     meta_cloning: False
+[2021-09-10 17:43:14 train.py:43] INFO     meta_test_iter: 10000
+[2021-09-10 17:43:14 train.py:43] INFO     meta_train_iter: 100
+[2021-09-10 17:43:14 train.py:43] INFO     meta_train_metric: euclidean
+[2021-09-10 17:43:14 train.py:43] INFO     meta_train_query: 15
+[2021-09-10 17:43:14 train.py:43] INFO     meta_train_shot: 1
+[2021-09-10 17:43:14 train.py:43] INFO     meta_train_way: 30
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_interval: 10
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_iter: 500
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_metric: euclidean
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_query: 15
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_shot: 5
+[2021-09-10 17:43:14 train.py:43] INFO     meta_val_way: 5
+[2021-09-10 17:43:14 train.py:43] INFO     nesterov: False
+[2021-09-10 17:43:14 train.py:43] INFO     no_meta_eval: False
+[2021-09-10 17:43:14 train.py:43] INFO     num_NN: 1
+[2021-09-10 17:43:14 train.py:43] INFO     num_classes: 64
+[2021-09-10 17:43:14 train.py:43] INFO     optimizer: SGD
+[2021-09-10 17:43:14 train.py:43] INFO     pointing_aug_equalperclass_num: 1
+[2021-09-10 17:43:14 train.py:43] INFO     pointing_aug_eval: False
+[2021-09-10 17:43:14 train.py:43] INFO     pointing_aug_randomgeneration_num: 10
+[2021-09-10 17:43:14 train.py:43] INFO     pointing_aug_sample_type: select_class
+[2021-09-10 17:43:14 train.py:43] INFO     pointing_aug_selectclass_num: 1
+[2021-09-10 17:43:14 train.py:43] INFO     pretrain: None
+[2021-09-10 17:43:14 train.py:43] INFO     print_freq: 50
+[2021-09-10 17:43:14 train.py:43] INFO     save_path: ./result_miniImageNet
+[2021-09-10 17:43:14 train.py:43] INFO     scheduler: multi_step
+[2021-09-10 17:43:14 train.py:43] INFO     seed: 0
+[2021-09-10 17:43:14 train.py:43] INFO     select_class_metric: UN
+[2021-09-10 17:43:14 train.py:43] INFO     select_class_type: random
+[2021-09-10 17:43:14 train.py:43] INFO     split_dir: ./split/mini/
+[2021-09-10 17:43:14 train.py:43] INFO     start_epoch: 0
+[2021-09-10 17:43:14 train.py:43] INFO     weight_decay: 0.0001
+[2021-09-10 17:43:14 train.py:43] INFO     workers: 40
+[2021-09-10 17:43:14 train.py:58] INFO     => creating model 'resnet18'
+[2021-09-10 17:43:16 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 17:43:45 train.py:237] INFO     Epoch: [0]	Time 29.231	Loss 4.0049	Prec: 6.734
+[2021-09-10 17:44:04 train.py:237] INFO     Epoch: [0]	Time 48.492	Loss 3.8367	Prec: 8.715
+[2021-09-10 17:44:24 train.py:237] INFO     Epoch: [0]	Time 67.896	Loss 3.7448	Prec: 9.901
+[2021-09-10 17:44:24 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 17:44:50 train.py:237] INFO     Epoch: [1]	Time 25.720	Loss 3.4381	Prec: 14.680
+[2021-09-10 17:45:10 train.py:237] INFO     Epoch: [1]	Time 46.023	Loss 3.3934	Prec: 15.762

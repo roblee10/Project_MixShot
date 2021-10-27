@@ -1,0 +1,197 @@
+[2021-09-10 17:45:51 train.py:43] INFO     arch: resnet18
+[2021-09-10 17:45:51 train.py:43] INFO     batch_size: 256
+[2021-09-10 17:45:51 train.py:43] INFO     case_study: False
+[2021-09-10 17:45:51 train.py:43] INFO     ce_train: True
+[2021-09-10 17:45:51 train.py:43] INFO     clone_augment_method: randomresizedcrop
+[2021-09-10 17:45:51 train.py:43] INFO     clone_factor_1shot: 1
+[2021-09-10 17:45:51 train.py:43] INFO     clone_factor_5shot: 1
+[2021-09-10 17:45:51 train.py:43] INFO     config: ./configs/AAAI_configs/pretrain_tiered.config
+[2021-09-10 17:45:51 train.py:43] INFO     data: ./tiered-imagenet/data/
+[2021-09-10 17:45:51 train.py:43] INFO     data_type: miniImageNet
+[2021-09-10 17:45:51 train.py:43] INFO     disable_random_resize: False
+[2021-09-10 17:45:51 train.py:43] INFO     disable_tqdm: False
+[2021-09-10 17:45:51 train.py:43] INFO     disable_train_augment: False
+[2021-09-10 17:45:51 train.py:43] INFO     do_meta_train: False
+[2021-09-10 17:45:51 train.py:43] INFO     enlarge: False
+[2021-09-10 17:45:51 train.py:43] INFO     epochs: 100
+[2021-09-10 17:45:51 train.py:43] INFO     eval_fc: False
+[2021-09-10 17:45:51 train.py:43] INFO     evaluate: False
+[2021-09-10 17:45:51 train.py:43] INFO     logname: Pretrain_tieredImageNet.log
+[2021-09-10 17:45:51 train.py:43] INFO     lr: 0.1
+[2021-09-10 17:45:51 train.py:43] INFO     lr_gamma: 0.1
+[2021-09-10 17:45:51 train.py:43] INFO     lr_stepsize: 30
+[2021-09-10 17:45:51 train.py:43] INFO     meta_cloning: False
+[2021-09-10 17:45:51 train.py:43] INFO     meta_test_iter: 10000
+[2021-09-10 17:45:51 train.py:43] INFO     meta_train_iter: 100
+[2021-09-10 17:45:51 train.py:43] INFO     meta_train_metric: euclidean
+[2021-09-10 17:45:51 train.py:43] INFO     meta_train_query: 15
+[2021-09-10 17:45:51 train.py:43] INFO     meta_train_shot: 1
+[2021-09-10 17:45:51 train.py:43] INFO     meta_train_way: 30
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_interval: 10
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_iter: 500
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_metric: euclidean
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_query: 15
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_shot: 5
+[2021-09-10 17:45:51 train.py:43] INFO     meta_val_way: 5
+[2021-09-10 17:45:51 train.py:43] INFO     nesterov: False
+[2021-09-10 17:45:51 train.py:43] INFO     no_meta_eval: False
+[2021-09-10 17:45:51 train.py:43] INFO     num_NN: 1
+[2021-09-10 17:45:51 train.py:43] INFO     num_classes: 351
+[2021-09-10 17:45:51 train.py:43] INFO     optimizer: SGD
+[2021-09-10 17:45:51 train.py:43] INFO     pointing_aug_equalperclass_num: 1
+[2021-09-10 17:45:51 train.py:43] INFO     pointing_aug_eval: False
+[2021-09-10 17:45:51 train.py:43] INFO     pointing_aug_randomgeneration_num: 10
+[2021-09-10 17:45:51 train.py:43] INFO     pointing_aug_sample_type: select_class
+[2021-09-10 17:45:51 train.py:43] INFO     pointing_aug_selectclass_num: 1
+[2021-09-10 17:45:51 train.py:43] INFO     pretrain: None
+[2021-09-10 17:45:51 train.py:43] INFO     print_freq: 50
+[2021-09-10 17:45:51 train.py:43] INFO     save_path: ./result_tieredImageNet
+[2021-09-10 17:45:51 train.py:43] INFO     scheduler: step
+[2021-09-10 17:45:51 train.py:43] INFO     seed: 0
+[2021-09-10 17:45:51 train.py:43] INFO     select_class_metric: UN
+[2021-09-10 17:45:51 train.py:43] INFO     select_class_type: random
+[2021-09-10 17:45:51 train.py:43] INFO     split_dir: ./split/tiered/
+[2021-09-10 17:45:51 train.py:43] INFO     start_epoch: 0
+[2021-09-10 17:45:51 train.py:43] INFO     weight_decay: 0.0001
+[2021-09-10 17:45:51 train.py:43] INFO     workers: 40
+[2021-09-10 17:45:51 train.py:58] INFO     => creating model 'resnet18'
+[2021-09-10 17:45:53 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 17:46:40 train.py:43] INFO     arch: resnet18
+[2021-09-10 17:46:40 train.py:43] INFO     batch_size: 256
+[2021-09-10 17:46:40 train.py:43] INFO     case_study: False
+[2021-09-10 17:46:40 train.py:43] INFO     ce_train: True
+[2021-09-10 17:46:40 train.py:43] INFO     clone_augment_method: randomresizedcrop
+[2021-09-10 17:46:40 train.py:43] INFO     clone_factor_1shot: 1
+[2021-09-10 17:46:40 train.py:43] INFO     clone_factor_5shot: 1
+[2021-09-10 17:46:40 train.py:43] INFO     config: ./configs/AAAI_configs/pretrain_tiered.config
+[2021-09-10 17:46:40 train.py:43] INFO     data: ./tiered-imagenet/data/
+[2021-09-10 17:46:40 train.py:43] INFO     data_type: miniImageNet
+[2021-09-10 17:46:40 train.py:43] INFO     disable_random_resize: False
+[2021-09-10 17:46:40 train.py:43] INFO     disable_tqdm: False
+[2021-09-10 17:46:40 train.py:43] INFO     disable_train_augment: False
+[2021-09-10 17:46:40 train.py:43] INFO     do_meta_train: False
+[2021-09-10 17:46:40 train.py:43] INFO     enlarge: False
+[2021-09-10 17:46:40 train.py:43] INFO     epochs: 100
+[2021-09-10 17:46:40 train.py:43] INFO     eval_fc: False
+[2021-09-10 17:46:40 train.py:43] INFO     evaluate: False
+[2021-09-10 17:46:40 train.py:43] INFO     logname: Pretrain_tieredImageNet.log
+[2021-09-10 17:46:40 train.py:43] INFO     lr: 0.1
+[2021-09-10 17:46:40 train.py:43] INFO     lr_gamma: 0.1
+[2021-09-10 17:46:40 train.py:43] INFO     lr_stepsize: 30
+[2021-09-10 17:46:40 train.py:43] INFO     meta_cloning: False
+[2021-09-10 17:46:40 train.py:43] INFO     meta_test_iter: 10000
+[2021-09-10 17:46:40 train.py:43] INFO     meta_train_iter: 100
+[2021-09-10 17:46:40 train.py:43] INFO     meta_train_metric: euclidean
+[2021-09-10 17:46:40 train.py:43] INFO     meta_train_query: 15
+[2021-09-10 17:46:40 train.py:43] INFO     meta_train_shot: 1
+[2021-09-10 17:46:40 train.py:43] INFO     meta_train_way: 30
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_interval: 10
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_iter: 500
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_metric: euclidean
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_query: 15
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_shot: 5
+[2021-09-10 17:46:40 train.py:43] INFO     meta_val_way: 5
+[2021-09-10 17:46:40 train.py:43] INFO     nesterov: False
+[2021-09-10 17:46:40 train.py:43] INFO     no_meta_eval: False
+[2021-09-10 17:46:40 train.py:43] INFO     num_NN: 1
+[2021-09-10 17:46:40 train.py:43] INFO     num_classes: 351
+[2021-09-10 17:46:40 train.py:43] INFO     optimizer: SGD
+[2021-09-10 17:46:40 train.py:43] INFO     pointing_aug_equalperclass_num: 1
+[2021-09-10 17:46:40 train.py:43] INFO     pointing_aug_eval: False
+[2021-09-10 17:46:40 train.py:43] INFO     pointing_aug_randomgeneration_num: 10
+[2021-09-10 17:46:40 train.py:43] INFO     pointing_aug_sample_type: select_class
+[2021-09-10 17:46:40 train.py:43] INFO     pointing_aug_selectclass_num: 1
+[2021-09-10 17:46:40 train.py:43] INFO     pretrain: None
+[2021-09-10 17:46:40 train.py:43] INFO     print_freq: 50
+[2021-09-10 17:46:40 train.py:43] INFO     save_path: ./result_tieredImageNet
+[2021-09-10 17:46:40 train.py:43] INFO     scheduler: step
+[2021-09-10 17:46:40 train.py:43] INFO     seed: 0
+[2021-09-10 17:46:40 train.py:43] INFO     select_class_metric: UN
+[2021-09-10 17:46:40 train.py:43] INFO     select_class_type: random
+[2021-09-10 17:46:40 train.py:43] INFO     split_dir: ./split/tiered/
+[2021-09-10 17:46:40 train.py:43] INFO     start_epoch: 0
+[2021-09-10 17:46:40 train.py:43] INFO     weight_decay: 0.0001
+[2021-09-10 17:46:40 train.py:43] INFO     workers: 40
+[2021-09-10 17:46:40 train.py:58] INFO     => creating model 'resnet18'
+[2021-09-10 17:46:42 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 17:47:06 train.py:237] INFO     Epoch: [0]	Time 23.411	Loss 5.9071	Prec: 0.734
+[2021-09-10 17:47:26 train.py:237] INFO     Epoch: [0]	Time 43.607	Loss 5.7654	Prec: 1.039
+[2021-09-10 17:47:47 train.py:237] INFO     Epoch: [0]	Time 64.706	Loss 5.6863	Prec: 1.305
+[2021-09-10 17:48:09 train.py:237] INFO     Epoch: [0]	Time 86.740	Loss 5.6272	Prec: 1.494
+[2021-09-10 17:48:32 train.py:237] INFO     Epoch: [0]	Time 110.182	Loss 5.5789	Prec: 1.645
+[2021-09-10 17:49:01 train.py:237] INFO     Epoch: [0]	Time 138.561	Loss 5.5377	Prec: 1.786
+[2021-09-10 17:49:31 train.py:237] INFO     Epoch: [0]	Time 168.667	Loss 5.4998	Prec: 1.971
+[2021-09-10 17:50:05 train.py:237] INFO     Epoch: [0]	Time 203.322	Loss 5.4639	Prec: 2.113
+[2021-09-10 17:50:41 train.py:237] INFO     Epoch: [0]	Time 239.284	Loss 5.4301	Prec: 2.297
+[2021-09-10 17:51:20 train.py:237] INFO     Epoch: [0]	Time 278.163	Loss 5.3979	Prec: 2.454
+[2021-09-10 17:52:00 train.py:237] INFO     Epoch: [0]	Time 318.047	Loss 5.3656	Prec: 2.660
+[2021-09-10 17:52:40 train.py:237] INFO     Epoch: [0]	Time 358.068	Loss 5.3353	Prec: 2.846
+[2021-09-10 17:53:20 train.py:237] INFO     Epoch: [0]	Time 398.226	Loss 5.3049	Prec: 3.060
+[2021-09-10 17:54:01 train.py:237] INFO     Epoch: [0]	Time 438.798	Loss 5.2763	Prec: 3.237
+[2021-09-10 17:54:43 train.py:237] INFO     Epoch: [0]	Time 481.060	Loss 5.2476	Prec: 3.453
+[2021-09-10 17:55:27 train.py:237] INFO     Epoch: [0]	Time 524.373	Loss 5.2186	Prec: 3.672
+[2021-09-10 17:56:10 train.py:237] INFO     Epoch: [0]	Time 567.962	Loss 5.1898	Prec: 3.886
+[2021-09-10 17:56:52 train.py:237] INFO     Epoch: [0]	Time 609.982	Loss 5.1602	Prec: 4.094
+[2021-09-10 17:57:34 train.py:237] INFO     Epoch: [0]	Time 651.675	Loss 5.1306	Prec: 4.341
+[2021-09-10 17:58:15 train.py:237] INFO     Epoch: [0]	Time 693.129	Loss 5.1037	Prec: 4.566
+[2021-09-10 17:58:59 train.py:237] INFO     Epoch: [0]	Time 736.574	Loss 5.0755	Prec: 4.807
+[2021-09-10 17:59:42 train.py:237] INFO     Epoch: [0]	Time 779.830	Loss 5.0485	Prec: 5.027
+[2021-09-10 18:00:23 train.py:237] INFO     Epoch: [0]	Time 821.028	Loss 5.0221	Prec: 5.251
+[2021-09-10 18:01:07 train.py:237] INFO     Epoch: [0]	Time 864.690	Loss 4.9961	Prec: 5.480
+[2021-09-10 18:01:49 train.py:237] INFO     Epoch: [0]	Time 906.396	Loss 4.9704	Prec: 5.714
+[2021-09-10 18:02:30 train.py:237] INFO     Epoch: [0]	Time 948.167	Loss 4.9455	Prec: 5.946
+[2021-09-10 18:03:12 train.py:237] INFO     Epoch: [0]	Time 990.011	Loss 4.9207	Prec: 6.168
+[2021-09-10 18:03:55 train.py:237] INFO     Epoch: [0]	Time 1032.581	Loss 4.8951	Prec: 6.416
+[2021-09-10 18:04:38 train.py:237] INFO     Epoch: [0]	Time 1076.001	Loss 4.8710	Prec: 6.646
+[2021-09-10 18:05:22 train.py:237] INFO     Epoch: [0]	Time 1119.529	Loss 4.8480	Prec: 6.866
+[2021-09-10 18:06:05 train.py:237] INFO     Epoch: [0]	Time 1162.939	Loss 4.8245	Prec: 7.103
+[2021-09-10 18:06:49 train.py:237] INFO     Epoch: [0]	Time 1206.670	Loss 4.8012	Prec: 7.333
+[2021-09-10 18:07:32 train.py:237] INFO     Epoch: [0]	Time 1250.231	Loss 4.7790	Prec: 7.559
+[2021-09-10 18:08:16 train.py:237] INFO     Epoch: [0]	Time 1293.707	Loss 4.7570	Prec: 7.776
+[2021-09-10 18:08:59 train.py:237] INFO     Epoch: [0]	Time 1337.292	Loss 4.7360	Prec: 7.997
+[2021-09-10 18:09:02 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 18:09:45 train.py:237] INFO     Epoch: [1]	Time 42.829	Loss 3.9505	Prec: 16.352
+[2021-09-10 18:10:29 train.py:237] INFO     Epoch: [1]	Time 87.286	Loss 3.9516	Prec: 16.723
+[2021-09-10 18:11:13 train.py:237] INFO     Epoch: [1]	Time 131.128	Loss 3.9408	Prec: 16.742
+[2021-09-10 18:11:55 train.py:237] INFO     Epoch: [1]	Time 172.851	Loss 3.9286	Prec: 16.828
+[2021-09-10 18:12:38 train.py:237] INFO     Epoch: [1]	Time 216.091	Loss 3.9136	Prec: 16.964
+[2021-09-10 18:13:21 train.py:237] INFO     Epoch: [1]	Time 259.031	Loss 3.9020	Prec: 17.172
+[2021-09-10 18:14:06 train.py:237] INFO     Epoch: [1]	Time 303.612	Loss 3.8876	Prec: 17.472
+[2021-09-10 18:14:49 train.py:237] INFO     Epoch: [1]	Time 346.783	Loss 3.8765	Prec: 17.605
+[2021-09-10 18:15:32 train.py:237] INFO     Epoch: [1]	Time 390.193	Loss 3.8665	Prec: 17.757
+[2021-09-10 18:16:16 train.py:237] INFO     Epoch: [1]	Time 433.845	Loss 3.8549	Prec: 17.894
+[2021-09-10 18:16:59 train.py:237] INFO     Epoch: [1]	Time 477.068	Loss 3.8442	Prec: 18.094
+[2021-09-10 18:17:41 train.py:237] INFO     Epoch: [1]	Time 518.921	Loss 3.8310	Prec: 18.320
+[2021-09-10 18:18:23 train.py:237] INFO     Epoch: [1]	Time 560.506	Loss 3.8183	Prec: 18.479
+[2021-09-10 18:19:05 train.py:237] INFO     Epoch: [1]	Time 602.814	Loss 3.8052	Prec: 18.720
+[2021-09-10 18:19:47 train.py:237] INFO     Epoch: [1]	Time 645.337	Loss 3.7940	Prec: 18.909
+[2021-09-10 18:20:30 train.py:237] INFO     Epoch: [1]	Time 688.256	Loss 3.7824	Prec: 19.098
+[2021-09-10 18:21:13 train.py:237] INFO     Epoch: [1]	Time 731.059	Loss 3.7725	Prec: 19.237
+[2021-09-10 18:21:56 train.py:237] INFO     Epoch: [1]	Time 773.901	Loss 3.7625	Prec: 19.395
+[2021-09-10 18:22:38 train.py:237] INFO     Epoch: [1]	Time 816.222	Loss 3.7507	Prec: 19.585
+[2021-09-10 18:23:20 train.py:237] INFO     Epoch: [1]	Time 858.332	Loss 3.7414	Prec: 19.708
+[2021-09-10 18:24:04 train.py:237] INFO     Epoch: [1]	Time 901.452	Loss 3.7297	Prec: 19.869
+[2021-09-10 18:24:46 train.py:237] INFO     Epoch: [1]	Time 944.398	Loss 3.7213	Prec: 20.010
+[2021-09-10 18:25:29 train.py:237] INFO     Epoch: [1]	Time 987.271	Loss 3.7115	Prec: 20.156
+[2021-09-10 18:26:11 train.py:237] INFO     Epoch: [1]	Time 1028.734	Loss 3.7024	Prec: 20.286
+[2021-09-10 18:26:54 train.py:237] INFO     Epoch: [1]	Time 1071.548	Loss 3.6913	Prec: 20.472
+[2021-09-10 18:27:37 train.py:237] INFO     Epoch: [1]	Time 1114.769	Loss 3.6813	Prec: 20.638
+[2021-09-10 18:28:17 train.py:237] INFO     Epoch: [1]	Time 1155.267	Loss 3.6722	Prec: 20.786
+[2021-09-10 18:28:59 train.py:237] INFO     Epoch: [1]	Time 1196.918	Loss 3.6631	Prec: 20.928
+[2021-09-10 18:29:41 train.py:237] INFO     Epoch: [1]	Time 1238.880	Loss 3.6549	Prec: 21.067
+[2021-09-10 18:30:23 train.py:237] INFO     Epoch: [1]	Time 1280.600	Loss 3.6455	Prec: 21.221
+[2021-09-10 18:31:04 train.py:237] INFO     Epoch: [1]	Time 1321.633	Loss 3.6368	Prec: 21.368
+[2021-09-10 18:31:46 train.py:237] INFO     Epoch: [1]	Time 1363.525	Loss 3.6269	Prec: 21.520
+[2021-09-10 18:32:28 train.py:237] INFO     Epoch: [1]	Time 1406.105	Loss 3.6182	Prec: 21.640
+[2021-09-10 18:33:11 train.py:237] INFO     Epoch: [1]	Time 1448.572	Loss 3.6101	Prec: 21.761
+[2021-09-10 18:33:53 train.py:237] INFO     Epoch: [1]	Time 1491.023	Loss 3.6007	Prec: 21.907
+[2021-09-10 18:33:56 train.py:100] INFO     ---Cross Entropy Loss Train---
+[2021-09-10 18:34:36 train.py:237] INFO     Epoch: [2]	Time 40.219	Loss 3.2418	Prec: 28.094
+[2021-09-10 18:35:18 train.py:237] INFO     Epoch: [2]	Time 81.964	Loss 3.2469	Prec: 27.797
+[2021-09-10 18:36:00 train.py:237] INFO     Epoch: [2]	Time 124.208	Loss 3.2374	Prec: 27.781
+[2021-09-10 18:36:43 train.py:237] INFO     Epoch: [2]	Time 166.715	Loss 3.2285	Prec: 27.979
+[2021-09-10 18:37:25 train.py:237] INFO     Epoch: [2]	Time 208.762	Loss 3.2309	Prec: 27.920
+[2021-09-10 18:38:07 train.py:237] INFO     Epoch: [2]	Time 250.750	Loss 3.2237	Prec: 28.066
+[2021-09-10 18:38:49 train.py:237] INFO     Epoch: [2]	Time 292.779	Loss 3.2206	Prec: 28.119
+[2021-09-10 18:39:30 train.py:237] INFO     Epoch: [2]	Time 334.521	Loss 3.2218	Prec: 28.097
+[2021-09-10 18:40:12 train.py:237] INFO     Epoch: [2]	Time 376.505	Loss 3.2135	Prec: 28.217

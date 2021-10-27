@@ -1,0 +1,130 @@
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     analyze: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_FC: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_base: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_class: 2
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_diff: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_interval: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_iter: 1000
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_metric: euclidean
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_rand: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     anlz_same: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     arch: resnet18
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     batch_size: 256
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     case_study: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     ce_train: True
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     clone_factor_1shot: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     clone_factor_5shot: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     config: ./configs/tiered_resnet18_pointing.config
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     data: ./tiered-imagenet/data/
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     data_type: tieredImageNet
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     disable_random_resize: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     disable_tqdm: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     disable_train_augment: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     do_imbal_eval: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     do_imbal_train: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     do_meta_train: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     enlarge: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     epochs: 100
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     eval_fc: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     evaluate: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     imbal_iter: 500
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     imbal_shot: 5
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     imbal_way: 5
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     logname: 08_19_tiered_pointing_equalperclass_10.log
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     lr: 0.1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     lr_gamma: 0.1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     lr_stepsize: 30
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_cloning: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_test_iter: 10000
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_train_iter: 100
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_train_metric: euclidean
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_train_query: 15
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_train_shot: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_train_way: 30
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_interval: 10
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_iter: 500
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_metric: euclidean
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_query: 15
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_shot: 5
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     meta_val_way: 5
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     mix_train: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     nesterov: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     no_meta_eval: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     num_NN: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     num_classes: 351
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     optimizer: SGD
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pointing_aug_equalperclass_num: 10
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pointing_aug_eval: True
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pointing_aug_randomgeneration_num: 600
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pointing_aug_sample_type: equal_per_class
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pointing_aug_selectclass_num: 600
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     pretrain: None
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     print_freq: 50
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     save_path: ./result_tiered/resnet18_epoch100_SGD
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     scheduler: step
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     seed: 0
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     select_class_metric: UN
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     select_class_type: random
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     split_dir: ./split/tiered/
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     start_epoch: 0
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_base: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_batch: 100
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_diff: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_iter: 10000
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_metric: euclidean
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_rand: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     triplet_same: 1
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     trp_train: False
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     weight_decay: 0.0001
+[2021-08-21 04:19:52 train_imbalanced.py:68] INFO     workers: 40
+[2021-08-21 04:19:52 train_imbalanced.py:83] INFO     => creating model 'resnet18'
+[2021-08-21 04:40:20 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.9
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6142(0.0023)	0.6716(0.0022)	0.6786(0.0022)
+GVP_5Shot	0.8322(0.0016)	0.8442(0.0016)	0.8424(0.0016)
+[2021-08-21 04:55:29 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.8
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6281(0.0022)	0.6758(0.0022)	0.6787(0.0022)
+GVP_5Shot	0.8351(0.0016)	0.8454(0.0016)	0.8424(0.0016)
+[2021-08-21 05:10:38 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.7
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6412(0.0022)	0.6789(0.0022)	0.6786(0.0022)
+GVP_5Shot	0.8363(0.0016)	0.8455(0.0016)	0.8423(0.0016)
+[2021-08-21 05:25:38 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.6
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6527(0.0022)	0.6820(0.0022)	0.6787(0.0022)
+GVP_5Shot	0.8360(0.0016)	0.8448(0.0016)	0.8424(0.0016)
+[2021-08-21 05:40:37 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.5
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6625(0.0022)	0.6847(0.0022)	0.6787(0.0022)
+GVP_5Shot	0.8347(0.0016)	0.8428(0.0016)	0.8425(0.0016)
+[2021-08-21 05:55:33 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.4
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6702(0.0022)	0.6866(0.0022)	0.6787(0.0022)
+GVP_5Shot	0.8316(0.0016)	0.8389(0.0016)	0.8424(0.0016)
+[2021-08-21 06:10:17 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.3
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6753(0.0022)	0.6874(0.0022)	0.6786(0.0022)
+GVP_5Shot	0.8262(0.0017)	0.8333(0.0017)	0.8422(0.0016)
+[2021-08-21 06:25:07 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.2
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6770(0.0022)	0.6866(0.0022)	0.6786(0.0022)
+GVP_5Shot	0.8199(0.0017)	0.8262(0.0017)	0.8418(0.0016)
+[2021-08-21 06:39:52 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0.1
+feature	UN	L2N	CL2N
+GVP 1Shot	0.6743(0.0022)	0.6830(0.0022)	0.6785(0.0022)
+GVP_5Shot	0.8119(0.0018)	0.8171(0.0017)	0.8417(0.0016)
+[2021-08-21 06:54:38 train_imbalanced.py:1698] INFO     Meta Test: LAST
+How_Close_Factor=0
+feature	UN	L2N	CL2N
+GVP 1Shot	0.2000(0.0000)	0.2000(0.0000)	0.2000(0.0000)
+GVP_5Shot	0.2000(0.0000)	0.2000(0.0000)	0.2000(0.0000)
